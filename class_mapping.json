@@ -1,0 +1,39 @@
+{
+  "classes": [
+    "dog",
+    "horse",
+    "elephant",
+    "butterfly",
+    "chicken",
+    "cat",
+    "cow",
+    "sheep",
+    "spider",
+    "squirrel"
+  ],
+  "class_to_index": {
+    "dog": 0,
+    "horse": 1,
+    "elephant": 2,
+    "butterfly": 3,
+    "chicken": 4,
+    "cat": 5,
+    "cow": 6,
+    "sheep": 7,
+    "spider": 8,
+    "squirrel": 9
+  },
+  "index_to_class": {
+    "0": "dog",
+    "1": "horse",
+    "2": "elephant",
+    "3": "butterfly",
+    "4": "chicken",
+    "5": "cat",
+    "6": "cow",
+    "7": "sheep",
+    "8": "spider",
+    "9": "squirrel"
+  },
+  "num_classes": 10
+}

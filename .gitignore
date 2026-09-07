@@ -1,0 +1,46 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.env
+*.env
+
+# IDE / Editor
+.vscode/
+.idea/
+*.code-workspace
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Large binary model files (tracked via Git LFS or excluded)
+models/*.pth
+models/*.pkl
+
+# But keep plots/images in models/
+!models/*.png
+
+# Source zip (not needed in repo)
+src.zip
+
+# Data raw/processed (usually large; add .gitkeep placeholders instead)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# DB files
+*.db
+*.sqlite
+*.sqlite3
+
+# OS
+.DS_Store
+Thumbs.db
